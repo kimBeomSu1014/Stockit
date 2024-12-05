@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 import Modal from './Modal.vue';
 import SignUp from './SignUpModal.vue';
 import Password from './ForgotPasswordModal.vue'
