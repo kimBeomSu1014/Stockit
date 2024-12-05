@@ -35,7 +35,7 @@
                       <input type="text" id="username" v-model="R_username" placeholder="Username" />
                 </div>
                 <div class="input-group">
-                      <input type="text" id="username" v-model="R_API_key" placeholder="API key" />
+                      <input type="text" id="username" v-model="R_secret_key" placeholder="Secret key" />
                 </div>
             </div>
         </div>
@@ -48,7 +48,16 @@
 </template>
 
 <script lang="ts">
-
+export default {
+    data() {
+      return {
+        E_username: '',
+        E_email: '',
+        R_username: '',
+        R_secret_key: '',
+      };
+  },
+};
 </script>
 
 <style scoped>
